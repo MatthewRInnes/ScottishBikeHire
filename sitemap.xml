@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.bikekingsborders.co.uk/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Shop & Accessories Page -->
+  <url>
+    <loc>https://www.bikekingsborders.co.uk/shop&Accessories.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Droncar & Muirdac & Leethorn Hill Walks Page -->
+  <url>
+    <loc>https://www.bikekingsborders.co.uk/Droncar&MuirdacHillWalks.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Contact & E-mail Page -->
+  <url>
+    <loc>https://www.bikekingsborders.co.uk/contact&Email.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Bike Hire & Packages Page -->
+  <url>
+    <loc>https://www.bikekingsborders.co.uk/bikeHire&Packages.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Bike Repair & Gears Page -->
+  <url>
+    <loc>https://www.bikekingsborders.co.uk/bikeRepair&Gears.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>   

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bikes Scotland</title>
+    <meta name="description" content="Get in touch with Bikes Scotland. Contact us for bike repairs, hire, sales, or guided walks in the Scottish Borders.">
+    <meta name="keywords" content="contact, bike shop, Scottish Borders, bike repairs, bike hire, guided walks">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="logo">
+            <a href="index.html">Bikes Scotland</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bikeRepair&Gears.html">Repair & Gears</a></li>
+            <li><a href="bikeHire&Packages.html">Hire & Packages</a></li>
+            <li><a href="shop&Accessories.html">Shop</a></li>
+            <li><a href="Droncar&MuirdacHillWalks.html">Walks</a></li>
+            <li><a href="contact&Email.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero contact-hero">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>We're here to help with all your cycling needs</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 High Street<br>Galashiels<br>TD1 1AA</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>01896 123456</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@bikesscotland.co.uk</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Friday: 9:00 - 18:00<br>
+                            Saturday: 9:00 - 17:00<br>
+                            Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="repair">Bike Repair</option>
+                                <option value="hire">Bike Hire</option>
+                                <option value="shop">Shop Enquiry</option>
+                                <option value="walks">Guided Walks</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <!-- Replace with actual Google Maps embed code -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.1234567890123!2d-2.8034!3d55.6194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDM3JzA5LjgiTiAyMMKwNDgnMTIuMiJX!5e0!3m2!1sen!2suk!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@bikesscotland.co.uk</p>
+                <p>Phone: 01896 123456</p>
+                <p>Address: 123 High Street, Galashiels, TD1 1AA</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 - 18:00</p>
+                <p>Saturday: 9:00 - 17:00</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bikes Scotland. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

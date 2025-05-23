@@ -1,0 +1,17 @@
+# Location of the XML sitemap
+Sitemap: https://www.yourwebsite.com/sitemap.xml
+
+# Allowing all user-agents (web crawlers) to access the website
+User-agent: *
+
+# Disallow crawling of URLs under /private/ directory
+Disallow: /private/
+
+# Disallow crawling of URLs under /admin/ directory
+Disallow: /admin/
+
+# Disallow crawling of URLs under /cgi-bin/ directory
+Disallow: /cgi-bin/
+
+# Disallow crawling of URLs under /tmp/ directory
+Disallow: /tmp/

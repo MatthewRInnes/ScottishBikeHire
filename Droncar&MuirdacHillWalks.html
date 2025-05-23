@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Walks - Bikes Scotland</title>
+    <meta name="description" content="Guided hill walks and hiking routes in the Scottish Borders. Explore Droncar and Muirdac Hills with experienced guides.">
+    <meta name="keywords" content="hill walks, hiking, Scottish Borders, Droncar Hills, Muirdac Hills, guided walks">
+
+    <!-- External resources -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="logo">
+        <a href="index.html">Bikes Scotland</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bikeRepair&Gears.html">Repair & Gears</a></li>
+        <li><a href="bikeHire&Packages.html">Hire & Packages</a></li>
+        <li><a href="shop&Accessories.html">Shop</a></li>
+        <li><a href="Droncar&MuirdacHillWalks.html" class="active">Walks</a></li>
+        <li><a href="contact&Email.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="hero walks-hero">
+        <div class="hero-content">
+          <h1>Hill Walks & Hiking</h1>
+          <p>Discover the beauty of the Scottish Borders on foot</p>
+          <a href="#routes" class="btn btn-primary">View Routes</a>
+        </div>
+      </section>
+
+      <section id="routes" class="routes-section">
+        <h2>Popular Walking Routes</h2>
+        <div class="routes-grid">
+          <div class="route-card">
+            <img src="images/droncar-hills.jpg" alt="Droncar Hills" loading="lazy">
+            <h3>Droncar Hills Circuit</h3>
+            <p>Moderate 8km circular route with stunning views</p>
+            <ul class="route-details">
+              <li><i class="fas fa-clock"></i> 3-4 hours</li>
+              <li><i class="fas fa-mountain"></i> 450m ascent</li>
+              <li><i class="fas fa-signal"></i> Moderate</li>
+            </ul>
+            <a href="#booking" class="btn btn-secondary">Book Guide</a>
+          </div>
+          <div class="route-card">
+            <img src="images/muirdac-hills.jpg" alt="Muirdac Hills" loading="lazy">
+            <h3>Muirdac Ridge Walk</h3>
+            <p>Challenging 12km ridge walk with panoramic views</p>
+            <ul class="route-details">
+              <li><i class="fas fa-clock"></i> 5-6 hours</li>
+              <li><i class="fas fa-mountain"></i> 650m ascent</li>
+              <li><i class="fas fa-signal"></i> Challenging</li>
+            </ul>
+            <a href="#booking" class="btn btn-secondary">Book Guide</a>
+          </div>
+          <div class="route-card">
+            <img src="images/leethorn-hills.jpg" alt="Leethorn Hills" loading="lazy">
+            <h3>Leethorn Hills Trail</h3>
+            <p>Easy 5km family-friendly walk with wildlife</p>
+            <ul class="route-details">
+              <li><i class="fas fa-clock"></i> 2-3 hours</li>
+              <li><i class="fas fa-mountain"></i> 200m ascent</li>
+              <li><i class="fas fa-signal"></i> Easy</li>
+            </ul>
+            <a href="#booking" class="btn btn-secondary">Book Guide</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="guided-walks-section">
+        <h2>Guided Walks</h2>
+        <div class="guided-walks-content">
+          <div class="guided-walks-info">
+            <h3>Professional Guides</h3>
+            <p>Our experienced guides will ensure a safe and enjoyable walking experience. They are knowledgeable about local history, wildlife, and the best viewpoints.</p>
+            <ul class="guided-walks-features">
+              <li><i class="fas fa-check"></i> Qualified mountain leaders</li>
+              <li><i class="fas fa-check"></i> First aid trained</li>
+              <li><i class="fas fa-check"></i> Local knowledge</li>
+              <li><i class="fas fa-check"></i> Group sizes 2-8 people</li>
+            </ul>
+          </div>
+          <div class="guided-walks-image">
+            <img src="images/guided-walk.jpg" alt="Guided Walk" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="booking-section">
+        <h2>Book a Guided Walk</h2>
+        <form class="booking-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="route">Select Route</label>
+            <select id="route" name="route" required>
+              <option value="">Choose a route</option>
+              <option value="droncar">Droncar Hills Circuit</option>
+              <option value="muirdac">Muirdac Ridge Walk</option>
+              <option value="leethorn">Leethorn Hills Trail</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="group-size">Group Size</label>
+            <input type="number" id="group-size" name="group-size" min="1" max="8" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Requirements</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Now</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@bikesscotland.co.uk</p>
+          <p>Phone: 01896 123456</p>
+          <p>Address: 123 High Street, Galashiels, TD1 1AA</p>
+        </div>
+        <div class="footer-section">
+          <h3>Opening Hours</h3>
+          <p>Monday - Friday: 9:00 - 18:00</p>
+          <p>Saturday: 9:00 - 17:00</p>
+          <p>Sunday: Closed</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Bikes Scotland. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

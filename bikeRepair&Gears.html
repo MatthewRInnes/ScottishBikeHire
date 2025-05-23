@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Repair & Gears - Bikes Scotland</title>
+    <meta name="description" content="Professional bike repair and gear services in the Scottish Borders. Expert mechanics, quality parts, and comprehensive maintenance packages.">
+    <meta name="keywords" content="bike repair, bike maintenance, bike gears, bicycle service, Scottish Borders, cycling">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="logo">
+            <a href="index.html">Bikes Scotland</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bikeRepair&Gears.html" class="active">Repair & Gears</a></li>
+            <li><a href="bikeHire&Packages.html">Hire & Packages</a></li>
+            <li><a href="shop&Accessories.html">Shop</a></li>
+            <li><a href="Droncar&MuirdacHillWalks.html">Walks</a></li>
+            <li><a href="contact&Email.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero repair-hero">
+            <div class="hero-content">
+                <h1>Professional Bike Repair & Gear Services</h1>
+                <p>Expert maintenance and repairs for all types of bicycles</p>
+                <a href="#services" class="btn btn-primary">Our Services</a>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Repair Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Full Service</h3>
+                    <p>Complete bike overhaul including cleaning, adjustment, and safety check</p>
+                    <p class="price">From £45</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cog"></i>
+                    <h3>Gear Adjustment</h3>
+                    <p>Precise tuning of derailleurs and shifters for smooth gear changes</p>
+                    <p class="price">From £25</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-brake-system"></i>
+                    <h3>Brake Service</h3>
+                    <p>Complete brake system check, adjustment, and pad replacement</p>
+                    <p class="price">From £30</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-section">
+            <h2>Book Your Service</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Required</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="full">Full Service</option>
+                        <option value="gears">Gear Adjustment</option>
+                        <option value="brakes">Brake Service</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@bikesscotland.co.uk</p>
+                <p>Phone: 01896 123456</p>
+                <p>Address: 123 High Street, Galashiels, TD1 1AA</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 - 18:00</p>
+                <p>Saturday: 9:00 - 17:00</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bikes Scotland. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

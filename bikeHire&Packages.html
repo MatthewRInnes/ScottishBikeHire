@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Hire & Packages - Bikes Scotland</title>
+    <meta name="description" content="Quality bike hire and cycling packages in the Scottish Borders. Mountain bikes, road bikes, and guided tours available.">
+    <meta name="keywords" content="bike hire, cycling packages, mountain bikes, road bikes, Scottish Borders, guided tours">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="logo">
+            <a href="index.html">Bikes Scotland</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bikeRepair&Gears.html">Repair & Gears</a></li>
+            <li><a href="bikeHire&Packages.html" class="active">Hire & Packages</a></li>
+            <li><a href="shop&Accessories.html">Shop</a></li>
+            <li><a href="Droncar&MuirdacHillWalks.html">Walks</a></li>
+            <li><a href="contact&Email.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero hire-hero">
+            <div class="hero-content">
+                <h1>Bike Hire & Cycling Packages</h1>
+                <p>Explore the Scottish Borders on two wheels</p>
+                <a href="#packages" class="btn btn-primary">View Packages</a>
+            </div>
+        </section>
+
+        <section id="packages" class="packages-section">
+            <h2>Our Hire Packages</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <i class="fas fa-mountain"></i>
+                    <h3>Mountain Bike</h3>
+                    <p>Full suspension mountain bikes for all terrains</p>
+                    <ul class="package-features">
+                        <li>24-hour hire</li>
+                        <li>Helmet included</li>
+                        <li>Basic tool kit</li>
+                        <li>Map of local trails</li>
+                    </ul>
+                    <p class="price">From £25/day</p>
+                    <a href="#booking" class="btn btn-secondary">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <i class="fas fa-road"></i>
+                    <h3>Road Bike</h3>
+                    <p>Lightweight road bikes for smooth riding</p>
+                    <ul class="package-features">
+                        <li>24-hour hire</li>
+                        <li>Helmet included</li>
+                        <li>Basic tool kit</li>
+                        <li>Route suggestions</li>
+                    </ul>
+                    <p class="price">From £20/day</p>
+                    <a href="#booking" class="btn btn-secondary">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <i class="fas fa-biking"></i>
+                    <h3>Electric Bike</h3>
+                    <p>E-bikes for effortless exploration</p>
+                    <ul class="package-features">
+                        <li>24-hour hire</li>
+                        <li>Helmet included</li>
+                        <li>Charger provided</li>
+                        <li>Range up to 60 miles</li>
+                    </ul>
+                    <p class="price">From £35/day</p>
+                    <a href="#booking" class="btn btn-secondary">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking-section">
+            <h2>Book Your Bike</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="bike-type">Bike Type</label>
+                    <select id="bike-type" name="bike-type" required>
+                        <option value="">Select a bike</option>
+                        <option value="mountain">Mountain Bike</option>
+                        <option value="road">Road Bike</option>
+                        <option value="electric">Electric Bike</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="start-date">Start Date</label>
+                    <input type="date" id="start-date" name="start-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="duration">Duration (days)</label>
+                    <input type="number" id="duration" name="duration" min="1" max="7" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Requirements</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@bikesscotland.co.uk</p>
+                <p>Phone: 01896 123456</p>
+                <p>Address: 123 High Street, Galashiels, TD1 1AA</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 - 18:00</p>
+                <p>Saturday: 9:00 - 17:00</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bikes Scotland. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
